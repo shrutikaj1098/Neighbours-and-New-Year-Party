@@ -16,47 +16,111 @@ Note: The integer written on ticket of individuals may or may not be unique. In 
 
 
 Input Format
+
+
 The first line of input consist of number of test cases, T.
+
+
 The first line of each test case consist of the number of houses (tickets distributed) in society, N.
+
+
 The second line of each test case consist of N space separated tickets with integer written on them.
 
 
 Constraints
+
+
 1<= T <=10
+
+
 1<= N <=10000
+
+
 -1000<= Integer_on_Ticket <=1000
 
+
+
 Output Format
+
+
 For each test case, print the ticket numbers in a single line forming the maximum sum in the format similar to Sample Test Case.
 
 
 Sample TestCase 1
+
+
 Input
+
+
 5
+
+
 5
+
+
 -1 7 8 -5 4 
+
+
 4
+
+
 3 2 1 -1 
+
+
 4 
+
+
 11 12 -2 -1 
+
+
 4
+
+
 4 5 4 3 
+
+
 4
+
+
 5 10 4 -1
 
 
 
+
+
 Output
+
+
 48
+
+
 13
+
+
 12
+
+
 44
+
+
 10
 
 
+
+
 Explanation
+
+
 Test Case 1: Maximum sum which can be formed is 12. Element considered 8, 4. Note that Output is printed from the reverse side of the array which is TRUE for all the test cases without the space. So, the output is 48.
+
+
 Test Case 2: Maximum sum which can be formed is 4. Element considered 3, 1. Output = 13.
+
+
 Test Case 3: Maximum sum which can be formed is 12 as by taking any other element value of maximum sum decreases.
+
+
 Test Case 4: Maximum sum which can be formed is 8 by taking 3, 5 or 4, 4. But the output is 4, 4 as 3 is smaller than 4.
+
+
 Test Case 5: Maximum sum which can be formed is 10.
