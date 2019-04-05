@@ -14,27 +14,21 @@ The President of the society, Mr. Singh, is a wise men and know that neighbours 
 Note: The integer written on ticket of individuals may or may not be unique. In case, when there are two list with equal maximum sum, the list with first greater element would be considered. For better understanding, look at the explanation of Test case 4 in Sample Test Case. The tickets with integer 0 are not considered for winning the gifts.
 
 
+
 Input Format
 The first line of input consist of number of test cases, T.
-
 The first line of each test case consist of the number of houses (tickets distributed) in society, N.
-
 The second line of each test case consist of N space separated tickets with integer written on them.
-
-
 
 
 Constraints
 1<= T <=10
-
 1<= N <=10000
-
 -1000<= Integer_on_Ticket <=1000
-
-
 
 Output Format
 For each test case, print the ticket numbers in a single line forming the maximum sum in the format similar to Sample Test Case.
+
 
 Sample TestCase 1
 Input
@@ -49,12 +43,17 @@ Input
 4 5 4 3 
 4
 5 10 4 -1
+
+
+
 Output
 48
 13
 12
 44
 10
+
+
 Explanation
 Test Case 1: Maximum sum which can be formed is 12. Element considered 8, 4. Note that Output is printed from the reverse side of the array which is TRUE for all the test cases without the space. So, the output is 48.
 Test Case 2: Maximum sum which can be formed is 4. Element considered 3, 1. Output = 13.
